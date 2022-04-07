@@ -1,0 +1,33 @@
+/home/nick/ANAL_ISIS/requests/geckodriver: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver [FLAGS] [OPTIONS]
+
+For more information try --help
+
+1649083633371	geckodriver	INFO	Listening on 127.0.0.1:51857
+1649083633374	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41989" "-no-remote" "-profile" "/tmp/rust_mozprofile6unSbW"
+1649083635657	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6unSbW/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:41989/devtools/browser/62bf852a-ff78-4ba3-828e-2caf0c23a43d
+1649083637310	Marionette	INFO	Listening on port 33751
+1649083637401	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1649083644854	Marionette	INFO	Stopped listening on port 33751
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1649083771192	geckodriver	INFO	Listening on 127.0.0.1:49777
+1649083771691	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40063" "-no-remote" "-profile" "/tmp/rust_mozprofile5xNS5S"
+1649083774155	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5xNS5S/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:40063/devtools/browser/151f3e97-d3e5-4612-bf0c-0c1c81ff904f
+1649083775211	Marionette	INFO	Listening on port 42095
+1649083775312	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1649083790478	Marionette	INFO	Stopped listening on port 42095
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
